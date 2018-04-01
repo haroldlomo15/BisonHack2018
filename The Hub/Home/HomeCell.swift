@@ -17,10 +17,12 @@ class HomeCell: UICollectionViewCell {
     @IBOutlet weak var artistLabel: UILabel!
     
     @IBOutlet weak var titleLabel: UILabel!
+  
+    @IBOutlet weak var timeStampLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        setCellShadow()
+        profileImageView.layer.cornerRadius = 50 / 2
     }
 }

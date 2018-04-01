@@ -53,6 +53,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         cell.artistLabel.text = musicInfo.artist
         cell.titleLabel.text = musicInfo.title
         cell.usernameLabel.text = musicInfo.username
+        cell.timeStampLabel.text = musicInfo.creationDate.timeAgoDisplay()
         
         guard let imageUrl = URL(string: musicInfo.profileImage) else { return cell }
         cell.profileImageView.af_setImage(withURL: imageUrl)

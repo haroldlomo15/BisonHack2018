@@ -10,9 +10,18 @@ import UIKit
 
 class CommentCell: UITableViewCell {
 
+    @IBOutlet weak var timeStampLabel: UILabel!
+    @IBOutlet weak var profileImageView: UIImageView!
+    
+    @IBOutlet weak var usernameLabel: UILabel!
+    
+    @IBOutlet weak var commentLabel: UILabel!
+   
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        profileImageView.layer.cornerRadius = 50 / 2
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -20,5 +29,6 @@ class CommentCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
 
 }
