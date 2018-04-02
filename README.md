@@ -18,10 +18,6 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://firebasestorage.googleapis.com/v0/b/the-hub-4e474.appspot.com/o/thehub.gif?alt=media&token=f497e38f-d380-41fe-b672-740b3c92f55d' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-## Notes
-
-Describe any challenges encountered while building the app.
-
 ## License
 
 Copyright [Harold Lomotey]
