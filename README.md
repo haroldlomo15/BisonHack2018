@@ -1,5 +1,5 @@
 
-# Bison Hack - *The Hub*
+# Bison Hack - *Semble*
 
 **The Hub** is a music playlist sharing app that uses itunes api to share music with a group of people sharing a unique ID  [Firebase](http://parseplatform.org/) backend.
 
