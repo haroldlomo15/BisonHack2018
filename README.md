@@ -7,10 +7,10 @@
 
 The following **required** user stories are complete:
 
-- [x] User can sign up and sign in to the login screen
-- [x] User can share music inside a particular hub
-- [x] User can compose and send chat messages on a hub
-- [x] User can view a list of chat messages in chronological order
+- User can sign up and sign in to the login screen
+- User can share music inside a particular hub
+- User can compose and send chat messages on a hub
+- User can view a list of chat messages in chronological order
 
 ## Video Walkthrough
 
